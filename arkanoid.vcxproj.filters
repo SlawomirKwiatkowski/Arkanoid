@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{793d9268-327a-495f-a6c9-e14c42a9e307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{c664b9cd-45b8-423d-abea-12a36328c74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a92991ab-d9d4-48c5-89dc-eb2168c55ce7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Źródło.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CMovable.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CBall.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CPaddle.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CGEntity.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CGBall.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CGPaddle.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CNonMovable.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapEditorState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CGBlock.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetingsState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovable.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CBall.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CPaddle.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGBall.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CGEntity.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CGPaddle.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CNonMovable.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapEditorState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGBlock.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetingsState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
